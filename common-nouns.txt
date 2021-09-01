@@ -76,7 +76,7 @@
 76.    back
 77.    parent
 78.    face
-79.    others
+79.    other
 80.    level
 81.    office
 82.    door

@@ -1,3 +1,5 @@
+//todo remove spaces at end and stop using .pop()
+
 const { txtToWordArray } = require("./txt-to-word.js")
 
 const poemParts  = {
