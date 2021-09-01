@@ -19,7 +19,7 @@ for( i = 0; i < lineNumber; i++){
     let uncommonNounIndex = Math.floor(Math.random()*poemParts.uncommonNouns.length);
     let uncommonNoun = poemParts.uncommonNouns[uncommonNounIndex];
     let article = '';
-    let vowels = ['a', 'e', 'o', 'u']
+    let vowels = ['a', 'e', 'o', 'u', 'i']
     if(vowels.includes(uncommonNoun[0])){
         article = 'an'
     }
