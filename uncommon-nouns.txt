@@ -16,7 +16,5 @@
 16. jabberwocky
 17. varlet
 18. canker-blossom
-19. Jimminy Christmas
 20. hashtag
 21. meme
-22. stupid test

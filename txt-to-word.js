@@ -2,6 +2,8 @@
 // input: numbered list within .txt file, each item in list is a new line
 // output: array of uncapitalized strings without #s or spaces
 
+console.log('Current directory: ' + process.cwd())
+
 var fs = require("fs");
 
 function txtToString(filePath){return fs.readFileSync(filePath, 'utf8')};
@@ -21,9 +23,11 @@ let noLineBreaks = string.split('\n');
 
 }
 
+module.exports.txtToWordArray = txtToWordArray
+
 // tests
 // console.log('Current directory: ' + process.cwd()) checks current directory
-// console.log(txtToWordArray("./common-nouns.txt"))
+ console.log(txtToWordArray("./common-nouns.txt"))
 //console.log(txtToWordArray("./uncommon-nouns.txt"))
 
 
